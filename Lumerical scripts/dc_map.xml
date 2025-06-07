@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lumerical_lookup_table version="1.0" name = "directional_coupler">
+<association>
+    <design>
+        <value name="Lc" type="double">0</value>
+    </design>
+    <extracted>
+        <value name="s-param" type="string">S_param_0um.dat</value>
+    </extracted>
+</association>
+<association>
+    <design>
+        <value name="Lc" type="double">3e-06</value>
+    </design>
+    <extracted>
+        <value name="s-param" type="string">S_param_3um.dat</value>
+    </extracted>
+</association>
+<association>
+    <design>
+        <value name="Lc" type="double">6e-06</value>
+    </design>
+    <extracted>
+        <value name="s-param" type="string">S_param_6um.dat</value>
+    </extracted>
+</association>
+<association>
+    <design>
+        <value name="Lc" type="double">9e-06</value>
+    </design>
+    <extracted>
+        <value name="s-param" type="string">S_param_9um.dat</value>
+    </extracted>
+</association>
+<association>
+    <design>
+        <value name="Lc" type="double">1.2e-05</value>
+    </design>
+    <extracted>
+        <value name="s-param" type="string">S_param_12um.dat</value>
+    </extracted>
+</association>
+<association>
+    <design>
+        <value name="Lc" type="double">1.5e-05</value>
+    </design>
+    <extracted>
+        <value name="s-param" type="string">S_param_15um.dat</value>
+    </extracted>
+</association>
+<association>
+    <design>
+        <value name="Lc" type="double">1.8e-05</value>
+    </design>
+    <extracted>
+        <value name="s-param" type="string">S_param_18um.dat</value>
+    </extracted>
+</association>
+<association>
+    <design>
+        <value name="Lc" type="double">2.1000000000000002e-05</value>
+    </design>
+    <extracted>
+        <value name="s-param" type="string">S_param_21um.dat</value>
+    </extracted>
+</association>
+<association>
+    <design>
+        <value name="Lc" type="double">2.4e-05</value>
+    </design>
+    <extracted>
+        <value name="s-param" type="string">S_param_24um.dat</value>
+    </extracted>
+</association>
+<association>
+    <design>
+        <value name="Lc" type="double">2.7e-05</value>
+    </design>
+    <extracted>
+        <value name="s-param" type="string">S_param_27um.dat</value>
+    </extracted>
+</association>
+<association>
+    <design>
+        <value name="Lc" type="double">3e-05</value>
+    </design>
+    <extracted>
+        <value name="s-param" type="string">S_param_30um.dat</value>
+    </extracted>
+</association>
+<association>
+    <design>
+        <value name="Lc" type="double">3.3e-05</value>
+    </design>
+    <extracted>
+        <value name="s-param" type="string">S_param_33um.dat</value>
+    </extracted>
+</association>
+<association>
+    <design>
+        <value name="Lc" type="double">3.6e-05</value>
+    </design>
+    <extracted>
+        <value name="s-param" type="string">S_param_36um.dat</value>
+    </extracted>
+</association>
+<association>
+    <design>
+        <value name="Lc" type="double">3.9e-05</value>
+    </design>
+    <extracted>
+        <value name="s-param" type="string">S_param_39um.dat</value>
+    </extracted>
+</association>
+<association>
+    <design>
+        <value name="Lc" type="double">4.2000000000000004e-05</value>
+    </design>
+    <extracted>
+        <value name="s-param" type="string">S_param_42um.dat</value>
+    </extracted>
+</association>
+<association>
+    <design>
+        <value name="Lc" type="double">4.5e-05</value>
+    </design>
+    <extracted>
+        <value name="s-param" type="string">S_param_45um.dat</value>
+    </extracted>
+</association>
+</lumerical_lookup_table>

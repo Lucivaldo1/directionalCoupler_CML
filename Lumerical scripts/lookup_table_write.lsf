@@ -1,0 +1,27 @@
+# define data export
+xml_filename="C:\Users\luciv\Documents\Lucivaldo\Atividade CML\dc_map.xml";
+#if (fileexists(xml_filename)) { rm(xml_filename);}
+table = "directional_coupler";
+lookupopen(xml_filename,table);
+
+# prepare data structure
+design = cell(1);
+extracted = cell(1);
+design{1}=struct;
+design{1}.name = "Lc";
+extracted{1} = struct;
+extracted{1}.name = "s-param";
+
+Lc = linspace(0,45e-6,16);
+
+for (ll=1:length(Lc)) {
+design{1}.value = Lc(ll);
+gap=200e-9;
+filename = "S_param_"+num2str(Lc(ll)*1e6) + "um";
+file1=filename+".dat";
+extracted{1}.value = file1;
+
+lookupwrite( xml_filename, design, extracted );
+}
+
+lookupclose( xml_filename );

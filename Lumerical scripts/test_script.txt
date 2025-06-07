@@ -1,0 +1,11 @@
+filename="C:\Users\luciv\Documents\Lucivaldo\Atividade CML\dc_map.xml";
+table = "directional_coupler";
+
+design = cell(1);
+design{1} = struct;
+design{1}.name = "Lc";
+design{1}.value = coupling_length;
+
+setnamed('SPAR_1','load from file',0);
+M = lookupreadnportsparameter( filename, table, design, "s-param" );
+setvalue('SPAR_1','s parameters',M);
